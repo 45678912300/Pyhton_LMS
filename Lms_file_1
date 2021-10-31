@@ -1,0 +1,5 @@
+admin_Id = 0018840
+
+print("Enter your username: ")
+print("Enter your password: ")
+
