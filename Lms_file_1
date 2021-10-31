@@ -1,5 +1,20 @@
-admin_Id = 0018840
+admin_Id = 18840
 
-print("Enter your username: ")
-print("Enter your password: ")
+user_Id= ["Aakarsh030", "Arpit274", "Aman12", "Prakhar2804"]
+books_name = ["A Time for Mercy", "The Duke and I", "The Russian", "The Four Winds", "A Court of Silver Flames", "The Four Winds", "Life After Death", "The Four Winds", "Win", "The Four Winds"]
+
+username = input("Enter your username: ")
+
+if username in user_Id:
+    print("Welcome,", username+". \n")
+elif username == str(admin_Id):
+    print("Welcome admin. \n")
+    print("The name of the books are",books_name)
+else:
+    print("Access denied.")
+
+    
+
+
+
 
